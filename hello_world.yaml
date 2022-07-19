@@ -47,4 +47,4 @@ spec:
       name: Log Message
       action: debug:log
       input:
-        message: 'Hello, ${{ parameters.name }} and ${{ parameters.tasks[0].title }}!'
+        message: 'Hello, ${{ parameters.name }} and {% for tas in parameters.task %} ${{ tas.title }} {% endfor %}!'
