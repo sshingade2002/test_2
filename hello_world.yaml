@@ -32,23 +32,23 @@ spec:
                 type: string
                 title: location
                 description: Enter location of application
-        remotes2:
+        exposes:
           type: array
           title: Remotes
           items:
             type: object
             required:
-              - app
-              - location
+              - component
+              - src
             properties:
-              app:
+              component:
                 type: string
-                title: Application
-                description: An application
-              location:
+                title: Component
+                description: A component
+              src:
                 type: string
-                title: location
-                description: Enter location of application
+                title: source
+                description: Enter source of component
               
               #         exposes:
               #           type: array
