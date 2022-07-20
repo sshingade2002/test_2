@@ -32,30 +32,48 @@ spec:
                 type: string
                 title: location
                 description: Enter location of application
-#         exposes:
-#           type: array
-#           title: Exposes
-#           items:
-#             type: object
-#             required:
-#               - component
-#               - source
-#             properties:
-#               component:
-#                 type: string
-#                 title: Component
-#                 description: A component
-#               location:
-#                 type: string
-#                 title: Source
-#                 description: Source of the component
+        remotes2:
+          type: array
+          title: Remotes
+          items:
+            type: object
+            required:
+              - app
+              - location
+            properties:
+              app:
+                type: string
+                title: Application
+                description: An application
+              location:
+                type: string
+                title: location
+                description: Enter location of application
               
-              
-            
-          
-        
-          
-
+              #         exposes:
+              #           type: array
+              #           title: Exposes
+              #           items:
+              #             type: object
+              #             required:
+              #               - component
+              #               - source
+              #             properties:
+              #               component:
+              #                 type: string
+              #                 title: Component
+              #                 description: A component
+              #               location:
+              #                 type: string
+              #                 title: Source
+              #                 description: Source of the component
+  
+  
+  
+  
+  
+  
+  
   steps:
     - id: log-message
       name: Log Message
