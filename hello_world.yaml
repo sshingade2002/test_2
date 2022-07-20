@@ -32,23 +32,23 @@ spec:
                 type: string
                 title: location
                 description: Enter location of application
-        exposes:
-          type: array
-          title: Exposes
-          items:
-            type: object
-            required:
-              - component
-              - source
-            properties:
-              component:
-                type: string
-                title: Component
-                description: A component
-              location:
-                type: string
-                title: Source
-                description: Source of the component
+#         exposes:
+#           type: array
+#           title: Exposes
+#           items:
+#             type: object
+#             required:
+#               - component
+#               - source
+#             properties:
+#               component:
+#                 type: string
+#                 title: Component
+#                 description: A component
+#               location:
+#                 type: string
+#                 title: Source
+#                 description: Source of the component
               
               
             
